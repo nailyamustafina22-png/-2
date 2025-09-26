@@ -1,0 +1,10 @@
+import sympy as sp
+
+x = sp.Symbol('x')
+
+f = sp.exp(x)
+
+derivative = sp.diff(f, x)
+
+print("Функция: e^x")
+print("Производная:", derivative)
